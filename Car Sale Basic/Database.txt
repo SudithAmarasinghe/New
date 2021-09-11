@@ -1,0 +1,45 @@
+DataBase Structure
+
+DB name = abc password=root
+No of tables = 4
+Table names = preowner , newowner , vehicle , solditem
+
+Table
+-------------------------------------------------------------------
+newowner
+
+NIC (varchar-16) ->Primary
+Name (varchar-31)
+Address (varchar-101)
+Tele (varchar-24)
+Regno (varchar-8)
+
+
+preowner
+
+NIC (varchar-16) ->Primary
+Name (varchar-31)
+Address (varchar-101)
+Tele (varchar-24)
+Date (varchar-11)
+Regno (varchar-8)
+
+
+solditem
+
+Regno (varchar-8) ->Primary
+Price (varchar-13)
+Date (varchar-11)
+SpNotes (varchar-101)
+
+
+vehicle
+
+Regno (varchar-8) ->Primary
+Make (varchar-21)
+Model (varchar-21)
+ManuYear (varchar-5)
+RegYear (varchar-5)
+Category (varchar-21)
+Milage (varchar-7)
+Price (varchar-13)
